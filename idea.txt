@@ -1,0 +1,33 @@
+搭建ssm项目要点(gradle项目)
+参考网址:http://www.cnblogs.com/NB-QS/p/6287406.html
+1 新建gradle项目
+2 填写groupId(包名)与artifactId(项目名)ps:因为gradle需要根据这两个值去定位
+3 选择gradle组件 默认使用idea自已的gradle组件
+4 选择项目生成路径
+5 建好项目后，idea会自动加载gradle目录结构(src，main,java,resource等目录)
+6 会生成bulid.gradle文件，这个文件是用来添加包依赖的
+7 配置tomcat路径 并选择部署方式
+war模式—-将WEB工程以包的形式上传到服务器 ps：artifact可以理解为生成的东西
+war exploded模式—-将WEB工程以当前文件夹的位置关系上传到服务器
+一般选择第二种模式
+8 在gradle中添加SSM所依赖的jar包
+
+compile 'org.apache.tomcat:tomcat-servlet-api:8.0.24'
+    compile 'jstl:jstl:1.2'
+    compile 'org.springframework:spring-beans:4.1.7.RELEASE'
+    compile 'org.springframework:spring-web:4.1.7.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.1.7.RELEASE'
+    compile 'org.springframework:spring-tx:4.1.7.RELEASE'
+    compile 'com.alibaba:druid:1.0.15'
+    compile 'org.aspectj:aspectjweaver:1.8.6'
+    compile 'mysql:mysql-connector-java:5.1.36'
+    compile 'org.mybatis:mybatis-spring:1.2.3'
+    compile 'org.mybatis:mybatis:3.3.0'
+    compile 'org.springframework:spring-jdbc:4.1.7.RELEASE'
+    compile 'junit:junit:4.12'
+    compile 'org.springframework:spring-test:4.0.5.RELEASE'
+    providedCompile 'javax.servlet:servlet-api:2.5'
+
+
+9 src/main目录下java用来存放java源码文件，
+resource用来放置配置文件
