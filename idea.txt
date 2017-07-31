@@ -1,16 +1,16 @@
-´î½¨ssmÏîÄ¿Òªµã(gradleÏîÄ¿)
-²Î¿¼ÍøÖ·:http://www.cnblogs.com/NB-QS/p/6287406.html
-1 ĞÂ½¨gradleÏîÄ¿
-2 ÌîĞ´groupId(°üÃû)ÓëartifactId(ÏîÄ¿Ãû)ps:ÒòÎªgradleĞèÒª¸ù¾İÕâÁ½¸öÖµÈ¥¶¨Î»
-3 Ñ¡Ôñgradle×é¼ş Ä¬ÈÏÊ¹ÓÃidea×ÔÒÑµÄgradle×é¼ş
-4 Ñ¡ÔñÏîÄ¿Éú³ÉÂ·¾¶
-5 ½¨ºÃÏîÄ¿ºó£¬idea»á×Ô¶¯¼ÓÔØgradleÄ¿Â¼½á¹¹(src£¬main,java,resourceµÈÄ¿Â¼)
-6 »áÉú³Ébulid.gradleÎÄ¼ş£¬Õâ¸öÎÄ¼şÊÇÓÃÀ´Ìí¼Ó°üÒÀÀµµÄ
-7 ÅäÖÃtomcatÂ·¾¶ ²¢Ñ¡Ôñ²¿Êğ·½Ê½
-warÄ£Ê½¡ª-½«WEB¹¤³ÌÒÔ°üµÄĞÎÊ½ÉÏ´«µ½·şÎñÆ÷ ps£ºartifact¿ÉÒÔÀí½âÎªÉú³ÉµÄ¶«Î÷
-war explodedÄ£Ê½¡ª-½«WEB¹¤³ÌÒÔµ±Ç°ÎÄ¼ş¼ĞµÄÎ»ÖÃ¹ØÏµÉÏ´«µ½·şÎñÆ÷
-Ò»°ãÑ¡ÔñµÚ¶şÖÖÄ£Ê½
-8 ÔÚgradleÖĞÌí¼ÓSSMËùÒÀÀµµÄjar°ü
+ï»¿æ­å»ºssmé¡¹ç›®è¦ç‚¹(gradleé¡¹ç›®)
+å‚è€ƒç½‘å€:http://www.cnblogs.com/NB-QS/p/6287406.html
+1 æ–°å»ºgradleé¡¹ç›®
+2 å¡«å†™groupId(åŒ…å)ä¸artifactId(é¡¹ç›®å)ps:å› ä¸ºgradleéœ€è¦æ ¹æ®è¿™ä¸¤ä¸ªå€¼å»å®šä½
+3 é€‰æ‹©gradleç»„ä»¶ é»˜è®¤ä½¿ç”¨ideaè‡ªå·²çš„gradleç»„ä»¶
+4 é€‰æ‹©é¡¹ç›®ç”Ÿæˆè·¯å¾„
+5 å»ºå¥½é¡¹ç›®åï¼Œideaä¼šè‡ªåŠ¨åŠ è½½gradleç›®å½•ç»“æ„(srcï¼Œmain,java,resourceç­‰ç›®å½•)
+6 ä¼šç”Ÿæˆbulid.gradleæ–‡ä»¶ï¼Œè¿™ä¸ªæ–‡ä»¶æ˜¯ç”¨æ¥æ·»åŠ åŒ…ä¾èµ–çš„
+7 é…ç½®tomcatè·¯å¾„ å¹¶é€‰æ‹©éƒ¨ç½²æ–¹å¼
+waræ¨¡å¼â€”-å°†WEBå·¥ç¨‹ä»¥åŒ…çš„å½¢å¼ä¸Šä¼ åˆ°æœåŠ¡å™¨ psï¼šartifactå¯ä»¥ç†è§£ä¸ºç”Ÿæˆçš„ä¸œè¥¿
+war explodedæ¨¡å¼â€”-å°†WEBå·¥ç¨‹ä»¥å½“å‰æ–‡ä»¶å¤¹çš„ä½ç½®å…³ç³»ä¸Šä¼ åˆ°æœåŠ¡å™¨
+ä¸€èˆ¬é€‰æ‹©ç¬¬äºŒç§æ¨¡å¼
+8 åœ¨gradleä¸­æ·»åŠ SSMæ‰€ä¾èµ–çš„jaråŒ…
 
 compile 'org.apache.tomcat:tomcat-servlet-api:8.0.24'
     compile 'jstl:jstl:1.2'
@@ -29,5 +29,5 @@ compile 'org.apache.tomcat:tomcat-servlet-api:8.0.24'
     providedCompile 'javax.servlet:servlet-api:2.5'
 
 
-9 src/mainÄ¿Â¼ÏÂjavaÓÃÀ´´æ·ÅjavaÔ´ÂëÎÄ¼ş£¬
-resourceÓÃÀ´·ÅÖÃÅäÖÃÎÄ¼ş
+9 src/mainç›®å½•ä¸‹javaç”¨æ¥å­˜æ”¾javaæºç æ–‡ä»¶ï¼Œ
+resourceç”¨æ¥æ”¾ç½®é…ç½®æ–‡ä»¶
