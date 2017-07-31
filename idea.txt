@@ -31,3 +31,6 @@ compile 'org.apache.tomcat:tomcat-servlet-api:8.0.24'
 
 9 src/main目录下java用来存放java源码文件，
 resource用来放置配置文件
+
+10 resources目录中的config文件夹中的文件和WEB-INF文件夹下的web.xml自行添加
+

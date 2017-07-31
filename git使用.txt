@@ -1,0 +1,10 @@
+git普通使用
+1 安装git windows客户端后，创建本地用户
+2 在github注册账号，安装github for windows
+3 在github网站建立远程仓库
+4 clone远程仓库到本地
+
+idea使用git
+1 checkout github远程地址到本地
+2 导入下载下来的项目
+3 使用VCS--git add(本地stage)》commit（本地仓库）》push（远程仓库）
