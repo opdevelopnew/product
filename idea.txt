@@ -12,7 +12,7 @@ war exploded模式—-将WEB工程以当前文件夹的位置关系上传到服�
 一般选择第二种模式
 8 在gradle中添加SSM所依赖的jar包
 
-compile 'org.apache.tomcat:tomcat-servlet-api:8.0.24'
+    compile 'org.apache.tomcat:tomcat-servlet-api:8.0.24'
     compile 'jstl:jstl:1.2'
     compile 'org.springframework:spring-beans:4.1.7.RELEASE'
     compile 'org.springframework:spring-web:4.1.7.RELEASE'
@@ -27,10 +27,18 @@ compile 'org.apache.tomcat:tomcat-servlet-api:8.0.24'
     compile 'junit:junit:4.12'
     compile 'org.springframework:spring-test:4.0.5.RELEASE'
     providedCompile 'javax.servlet:servlet-api:2.5'
-
+    mybatisGenerator 'org.mybatis.generator:mybatis-generator-core:1.3.2'
+    mybatisGenerator 'mysql:mysql-connector-java:5.1.38'
 
 9 src/main目录下java用来存放java源码文件，
 resource用来放置配置文件
-
 10 resources目录中的config文件夹中的文件和WEB-INF文件夹下的web.xml自行添加
+
+
+
+具体搭建ssm项目(代码部分)
+参考网址:http://www.cnblogs.com/bojuetech/p/5844413.html
+1 在
+
+
 
