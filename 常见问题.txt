@@ -1,2 +1,5 @@
 1 web.xml配置serlvet错误 Cannot resolve Servlet...
 没有配置tomcat所引起的缺少servlet-api.jar包造成的
+
+2 idea如何手动导入jar包
+右键项目 打开模块设置--》依赖--》选择需要导入的jar包

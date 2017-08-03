@@ -8,13 +8,18 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../../build/generated-src/antlr/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../build/generated-src/antlr/test" isTestSource="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/antlr" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="product_main" />
+    <orderEntry type="library" name="Gradle: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" level="project" />
     <orderEntry type="library" name="Gradle: jstl:jstl:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.2.4.RELEASE" level="project" />
